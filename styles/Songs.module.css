@@ -63,3 +63,26 @@
 .relative{
     position: relative;
 }
+
+.absolute{
+    position: absolute;
+}
+
+.songDetail{
+    bottom: 2rem;
+    left: 2rem;
+    color: white;
+}
+
+.songDetailTitle{
+    font-size: 2rem;
+}
+
+.songDetailSubtitle{
+    color: #ccc;
+    font-size: 1rem;
+}
+
+.imageContainer{
+    object-fit: cover;
+}
