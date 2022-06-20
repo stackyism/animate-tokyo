@@ -1,3 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) to create animation project.
 
-Check out our [Animation deployment](https://animate-tokyo.vercel.app/songs) to test.
+Visit [animate app](https://animate-tokyo.vercel.app/) to test.
