@@ -1,4 +1,4 @@
-.container {
+.outerContainer {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -6,8 +6,8 @@
 }
 
 .songsContainer{
-    height : 45rem;
-    width : 25rem;
+    height : 720px;
+    width : 400px;
     border: 1px solid #ccc;
     display: flex;
     flex-direction: column;
@@ -16,39 +16,50 @@
 }
 
 .p2{
-    padding : 2rem;
+    padding : 32px;
 }
 
 .r1 {
-    border-radius: 1rem;
-}
-
-.songsImageContainer{
-    /* height: 18rem;
-    width: 18rem; */
-    border-radius: 0.5rem;
+    border-radius: 16px;
 }
 
 .songsTitle{
-    /* font-size: 1.5rem; */
+    font-size: 40px;
 }
 
 .songsSubtitle{
     text-align: center;
+    padding: 0 24px;
 }
 
-.songsDescription{
+.flexCol{
+    display : flex;
+    flex-direction: column;
+}
+
+.flexColCenter{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexBetween{
+    display : flex;
+    justify-content: space-between;
+}
+
 .iconContainer{
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.8);
-    height: 2rem;
-    width: 2rem;
+    height: 48px;
+    width: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,8 +67,8 @@
 
 .closeIcon{
     position: absolute;
-    top : 1rem;
-    left: 1rem;
+    top : 16px;
+    left: 16px;
 }
 
 .relative{
@@ -69,20 +80,41 @@
 }
 
 .songDetail{
-    bottom: 2rem;
-    left: 2rem;
+    bottom: 48px;
+    left: 32px;
     color: white;
 }
 
 .songDetailTitle{
-    font-size: 2rem;
+    font-size: 64px;
+    margin : 16px 0;
 }
 
 .songDetailSubtitle{
     color: #ccc;
-    font-size: 1rem;
+    font-size: 16px;
+    margin : 0;
 }
 
-.imageContainer{
+.songsImageContainer{
+    border-radius: 0.5rem;
     object-fit: cover;
+}
+
+.songsDetailContainer{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height : 85%;
+    margin: auto 0;
+}
+
+.songComment{
+    color : white;
+    font-size: 16px;
+    margin:0
+}
+
+.songInfoContainer{
+    margin : 0 24px 0 4px
 }
