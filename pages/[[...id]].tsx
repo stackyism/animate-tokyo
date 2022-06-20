@@ -1,4 +1,4 @@
-import styles from "../../styles/Songs.module.css";
+import styles from "../styles/Songs.module.css";
 import { MdClose, MdModeComment } from "react-icons/md";
 import Link from "next/link";
 import { motion, Variants, Variant } from "framer-motion";
